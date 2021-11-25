@@ -57,6 +57,7 @@ public class WsdlParseController {
 
 		HashMap<String,Object> resultMap = new HashMap<String,Object>();
 
+
 		try {
 	        // Read a WSDL 1.1 or 2.0
 	        WSDLReader reader = WSDLFactory.newInstance().newWSDLReader();
