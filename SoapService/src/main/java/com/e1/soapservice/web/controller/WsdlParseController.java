@@ -85,6 +85,8 @@ public class WsdlParseController {
 	        // Gets input type
 	        log.debug("getLocalPart {}" ,endpoints.get(0).getBinding().getInterface().getOperations().get(0).getInput().getElement().getType().getQName().getLocalPart());
 
+	        //dev1 branch test
+
 
 	    } catch (WSDLException | IOException | URISyntaxException e1) {
 	        e1.printStackTrace();
